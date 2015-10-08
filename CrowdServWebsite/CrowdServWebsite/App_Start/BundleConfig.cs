@@ -23,6 +23,17 @@ namespace CrowdServWebsite
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
                       "~/Content/site.css"));
+
+            bundles.Add(new ScriptBundle("~/bundles/angular").Include(
+                       "~/Scripts/angular.js",
+                       "~/Scripts/angular-ui-router.js",
+                       "~/Scripts/angular-animate.js",
+                       "~/app/app.module.js",
+                       "~/app/app.routes.js",
+                       //Services
+                       "~/app/components/index/indexService.js",
+                       //Controllers
+                       "~/app/components/index/indexController.js"));
         }
     }
 }
