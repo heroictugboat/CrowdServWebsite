@@ -1,0 +1,51 @@
+﻿/*Home Page*/
+
+video#bgvid { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(Img/poster.jpeg) no-repeat;
+    background-size: cover; 
+}
+
+
+.video_overlay {
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    position: fixed;
+    background: -webkit-linear-gradient(left top, #FF5252 , #303F9F); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #FF5252, #303F9F); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #FF5252, #303F9F); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, #FF5252, #303F9F); /* Standard syntax (must be last) */
+    z-index: -20;
+    background-size: contain;
+    opacity: 0.8;
+    top: 0;
+    left: 0;
+}
+
+.textboxholder {
+    margin-top: 65%;
+    margin-right: 2%;
+    margin-bottom: 10%;
+    z-index: -10;
+}
+
+.textboxholder h1 {
+    font-size: 900%;
+    color: #FFFFFF;
+}
+/*About Page*/
+
+/*Team Page*/
+
+/*Contact Page*/
