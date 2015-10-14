@@ -249,7 +249,14 @@
     <Content Include="Content\bower_components\fonts\LICENSE.txt" />
     <Content Include="Content\bower_components\fonts\Material-Design-Icons.svg" />
     <Content Include="Content\style.css" />
+    <Content Include="Img\FrontPageCard01_cropped.png" />
+    <Content Include="Img\FrontPageCard_shadow.png" />
     <Content Include="Img\poster.jpeg" />
+    <Content Include="Img\pretzel.jpg" />
+    <Content Include="Img\Vid\fanphone1.mp4" />
+    <Content Include="Img\Vid\fanphone2.mp4" />
+    <Content Include="Img\Vid\rome.mp4" />
+    <Content Include="Img\Vid\soccer-stadium-houston-tx.mp4" />
     <Content Include="Img\Vid\fast-food-line-loop-preview.mp4" />
     <Content Include="Scripts\angular-animate.js" />
     <Content Include="Scripts\angular-animate.min.js" />
@@ -452,6 +459,7 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="app\components\product\" />
     <Folder Include="App_Data\" />
     <Folder Include="fonts\fonts\" />
   </ItemGroup>

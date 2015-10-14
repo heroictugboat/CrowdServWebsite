@@ -15,36 +15,59 @@ video#bgvid {
     background-size: cover; 
 }
 
-
-.video_overlay {
+/*.video_overlay {
     min-width: 100%;
     min-height: 100%;
     width: auto;
     height: auto;
     position: fixed;
-    background: -webkit-linear-gradient(left top, #FF5252 , #303F9F); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(bottom right, #FF5252, #303F9F); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(bottom right, #FF5252, #303F9F); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to bottom right, #FF5252, #303F9F); /* Standard syntax (must be last) */
+    background: -webkit-linear-gradient(left top, #B71C1C, #9E9E9E);
+    background: -o-linear-gradient(bottom right, #B71C1C, #9E9E9E);
+    background: -moz-linear-gradient(bottom right, #B71C1C, #9E9E9E);
+    background: linear-gradient(to bottom right, #B71C1C, #9E9E9E);
     z-index: -20;
     background-size: contain;
-    opacity: 0.8;
+    opacity: 0.4;
+    top: 0;
+    left: 0;
+}*/
+
+/*.img {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   width: 716px;
+   height: 686px;
+   margin-top: -250px;
+   margin-left: -250px;
+}*/
+
+/*About Page*/
+
+.backgroundAbout {
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    position: fixed;
+    background: -webkit-linear-gradient(left top, #9E9E9E, #0D47A1);
+    background: -o-linear-gradient(bottom right, #9E9E9E, #0D47A1);
+    background: -moz-linear-gradient(bottom right, #9E9E9E, #0D47A1);
+    background: linear-gradient(to bottom right, #9E9E9E, #0D47A1);
+    z-index: -20;
+    background-size: contain;
     top: 0;
     left: 0;
 }
 
-.textboxholder {
-    margin-top: 65%;
-    margin-right: 2%;
-    margin-bottom: 10%;
-    z-index: -10;
+.aboutCard {
+    padding: 15%;
+    margin-top: 25%;
+    margin-bottom: 25%;
 }
 
-.textboxholder h1 {
-    font-size: 900%;
-    color: #FFFFFF;
-}
-/*About Page*/
+
+
 
 /*Team Page*/
 
