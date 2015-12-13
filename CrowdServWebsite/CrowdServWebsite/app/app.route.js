@@ -19,7 +19,7 @@
                 templateUrl: 'app/components/about/about.html',
                 controller: 'aboutController',
                 controllerAs: 'vm'
-            }).when('/team', {
+            }).when('/product', {
                 templateUrl: 'app/components/team/team.html',
                 controller: 'teamController',
                 controllerAs: 'vm'
@@ -27,10 +27,10 @@
                 templateUrl: 'app/components/contact/contact.html',
                 controller: 'contactController',
                 controllerAs: 'vm'
+            })
+            .otherwise({
+                redirectTo: '/'
             });
-            //.otherwise({
-            //    redirectTo: '/home'
-            //});
     }
 
 })();

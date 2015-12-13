@@ -249,10 +249,28 @@
     <Content Include="Content\bower_components\fonts\LICENSE.txt" />
     <Content Include="Content\bower_components\fonts\Material-Design-Icons.svg" />
     <Content Include="Content\style.css" />
+    <Content Include="Img\014778568-modern-smartphone-blank-screen.jpg" />
+    <Content Include="Img\050226644-full-body-woman-portrait-stand.jpg" />
+    <Content Include="Img\apple-desk-laptop-macbook.jpg" />
+    <Content Include="Img\boxing-555735.jpg" />
+    <Content Include="Img\cheerleaders-654359.jpg" />
+    <Content Include="Img\Fenway.jpg" />
+    <Content Include="Img\football-560473.jpg" />
+    <Content Include="Img\football-695306.jpg" />
+    <Content Include="Img\football-801047.jpg" />
+    <Content Include="Img\football-888015.jpg" />
+    <Content Include="Img\football-905973.jpg" />
+    <Content Include="Img\golf-594199.jpg" />
+    <Content Include="Img\grass1.jpg" />
+    <Content Include="Img\green-932350.jpg" />
+    <Content Include="Img\rugby-695302.jpg" />
+    <Content Include="Img\text %281%29.png" />
+    <Content Include="Img\track1.jpg" />
     <Content Include="Img\FrontPageCard01_cropped.png" />
     <Content Include="Img\FrontPageCard_shadow.png" />
     <Content Include="Img\poster.jpeg" />
     <Content Include="Img\pretzel.jpg" />
+    <Content Include="Img\triangle.png" />
     <Content Include="Img\Vid\fanphone1.mp4" />
     <Content Include="Img\Vid\fanphone2.mp4" />
     <Content Include="Img\Vid\rome.mp4" />
@@ -459,7 +477,6 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="app\components\product\" />
     <Folder Include="App_Data\" />
     <Folder Include="fonts\fonts\" />
   </ItemGroup>
