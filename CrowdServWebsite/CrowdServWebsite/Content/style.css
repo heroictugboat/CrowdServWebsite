@@ -38,43 +38,141 @@
     background-color: #D7042A;
     color: white;
     margin-top: -1%;
-    padding: 2%;
     width: 100%;
+    bottom:0;
 }
 
-.footerLayout h1 {
-    font-size: 75px;
+.followUs {
+    margin-top: 30px;
+    text-align: center;
 }
 
+.followUs a {
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+}
 
- /*iPhone6*/
-@media screen and (max-width: 375px) {
+.footerText h1 {
+    font-size: 80px;
+}
+
+ /*iPhone5*/
+@media screen and (max-width: 320px) {
     .navbar-default {
-        width: 98%;
-    }
-    .footerLayout {
-        margin-bottom: -1%;
-        margin-top: -1%;
         width: 100%;
     }
-    .footerLayout img {
-        width: 0;
-        height: 0;
+    .footerLayout {
+        width: 105%;
+        margin-bottom: -50px;
     }
-    .footerLayout h2 {
-        font-size: 0px;
-    }
-    .footerLayout button {
-        font-size: 0px;
-    }
-    .footerLayout h1 {
-        font-size: 25px;
+    .footerLayout .footerText h1 {
+        font-size: 20px;
+        margin-top: -5px;
         text-align: center;
-        padding-top: -50%;
+    }
+    .footerLayout hr {
+        text-align: center;
+        font-size: 18px;
+    }
+    .footerLayout .followUs a i {
+        font-size: 25px;
     }
 }
 
-/*Home Page*/
+ /*Galaxy*/
+@media screen and (min-width: 321px) and (max-width: 360px){
+    .navbar-default {
+        width: 100%;
+    }
+    .footerLayout {
+        width: 105%;
+        margin-bottom: -50px;
+    }
+    .footerLayout .footerText h1 {
+        font-size: 25px;
+        margin-top: -5px;
+        text-align: center;
+    }
+    .footerLayout hr {
+        text-align: center;
+        font-size: 15px;
+    }
+    .footerLayout .followUs a i {
+        font-size: 25px;
+    }
+}
+
+ /*iPhone6*/
+@media screen and (min-width: 361px) and (max-width: 375px) {
+    .navbar-default {
+        width: 100%;
+    }
+    .footerLayout {
+        width: 105%;
+        margin-bottom: -50px;
+    }
+    .footerLayout .footerText h1 {
+        font-size: 30px;
+        margin-top: -5px;
+        text-align: center;
+    }
+    .footerLayout hr {
+        text-align: center;
+        font-size: 20px;
+    }
+    .footerLayout .followUs a i {
+        font-size: 35px;
+    }
+}
+
+ /*iPhone6 Plus*/
+@media screen and (min-width: 376px) and (max-width: 414px) {
+    .navbar-default {
+        width: 100%;
+    }
+    .footerLayout {
+        width: 105%;
+        margin-bottom: -50px;
+    }
+    .footerLayout .footerText h1 {
+        font-size: 35px;
+        margin-top: -5px;
+        text-align: center;
+    }
+    .footerLayout hr {
+        text-align: center;
+        font-size: 20px;
+    }
+    .footerLayout .followUs a i {
+        font-size: 35px;
+    }
+}
+
+ /*iPad*/
+@media screen and (min-width: 415px) and (max-width: 768px) {
+    .navbar-default {
+        width: 100%;
+    }
+    .footerLayout {
+        width: 105%;
+        margin-bottom: -50px;
+    }
+    .footerLayout .footerText h1 {
+        font-size: 45px;
+        margin-top: -5px;
+        text-align: center;
+    }
+    .footerLayout hr {
+        text-align: center;
+        font-size: 30px;
+    }
+    .footerLayout .followUs a i {
+        font-size: 40px;
+    }
+}
+
+/*<------------------------------------------------------------------------New Page------------------------------------------------------------------------------>*/
 
 .backgroundIndex {
     background-image: url('../Img/Fenway.jpg');
@@ -102,8 +200,7 @@
    z-index: -20;
 }
 
-
-/*About Page*/
+/*<------------------------------------------------------------------------New Page------------------------------------------------------------------------------>*/
 
 .jumbotronAbout {
     height: 600px;
@@ -117,25 +214,66 @@
     background-color: #34C7A6 !important;
 }
 
-.vcenterTeam {
-    margin-top: 45%;
-    margin-bottom: 50%;
-    background-color: #DC4929 !important;
-}
-
-.vcenterContact {
-    margin-top: 45%;
-    margin-bottom: 50%;
-}
-
-@media screen and (max-width: 375px) {
+ /*iPhone5*/
+@media screen and (max-width: 320px) {
     .jumbotronAbout {
         height: 300px;
-        width: 100%;
+        width: 105%;
+    }
+    .jumbotronAbout .vcenterAbout {
+        margin-top : 35%;
+        margin-bottom: 0;
     }
 }
 
-/*<-------------->*/
+ /*Galaxy*/
+@media screen and (min-width: 321px) and (max-width: 360px) {
+    .jumbotronAbout {
+        height: 300px;
+        width: 105%;
+    }
+    .jumbotronAbout .vcenterAbout {
+        margin-top : 30%;
+        margin-bottom: 0;
+    }
+}
+
+  /*iPhone6*/
+@media screen and (min-width: 361px) and (max-width: 375px) {
+    .jumbotronAbout {
+        height: 350px;
+        width: 105%;
+    }
+    .jumbotronAbout .vcenterAbout {
+        margin-top : 45%;
+        margin-bottom: 0;
+    }
+}
+
+ /*iPhone6 Plus*/
+@media screen and (min-width: 376px) and (max-width: 414px) {
+    .jumbotronAbout {
+        height: 400px;
+        width: 105%;
+    }
+    .jumbotronAbout .vcenterAbout {
+        margin-top : 45%;
+        margin-bottom: 0;
+    }
+}
+
+ /*iPad*/
+@media screen and (min-width: 415px) and (max-width: 768px) {
+    .jumbotronAbout {
+        height: 500px;
+        width: 105%;
+    }
+    .vcenterAbout {
+        margin-top: 30%;
+    }
+}
+
+/*<--------------------------Break----------------------------->*/
 
 .headerStory {
     margin: 0 !important;
@@ -151,7 +289,36 @@
     font-size: 400%;
 }
 
-@media screen and (max-width: 375px) {
+
+
+ /*iPhone5*/
+@media screen and (max-width: 320px) {
+    .container {
+        width: 100%;
+    }
+    .headerStory h1 {
+        font-size: 30px;
+    }
+    .headerStory h2 {
+        font-size: 20px;
+    }
+}
+
+ /*Galaxy*/
+@media screen and (min-width: 321px) and (max-width: 360px) {
+    .container {
+        width: 100%;
+    }
+    .headerStory h1 {
+        font-size: 35px;
+    }
+    .headerStory h2 {
+        font-size: 23px;
+    }
+}
+
+  /*iPhone6*/
+@media screen and (min-width: 361px) and (max-width: 375px) {
     .container {
         width: 100%;
     }
@@ -159,11 +326,37 @@
         font-size: 40px;
     }
     .headerStory h2 {
-        font-size: 20px;
+        font-size: 23px;
     }
 }
 
-/*<-------------->*/
+ /*iPhone6 Plus*/
+@media screen and (min-width: 376px) and (max-width: 414px) {
+    .container {
+        width: 100%;
+    }
+    .headerStory h1 {
+        font-size: 45px;
+    }
+    .headerStory h2 {
+        font-size: 25px;
+    }
+}
+
+ /*iPad*/
+@media screen and (min-width: 415px) and (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+    .headerStory h1 {
+        font-size: 55px;
+    }
+    .headerStory h2 {
+        font-size: 35px;
+    }
+}
+
+/*<--------------------------Break----------------------------->*/
 
 .jumbotronWOW {
     height: 600px;
@@ -176,19 +369,77 @@
     padding: 5%;
 }
 
-@media screen and (max-width: 375px) {
+ /*iPhone5*/
+@media screen and (max-width: 320px) {
     .jumbotronWOW {
-        width: 100%;
+        width: 105%;
+        height: 400px;
+    }
+    .jumbotronWOW .card1 {
+        margin-top: 12%;
+    }
+    .jumbotronWOW .card1 p {
+        font-size: 15px;
+    }
+}
+
+ /*Galaxy*/
+@media screen and (min-width: 321px) and (max-width: 360px) {
+    .jumbotronWOW {
+        width: 105%;
+        height: 400px;
     }
     .jumbotronWOW .card1 {
         margin-top: 15%;
+    }
+    .jumbotronWOW .card1 p {
+        font-size: 15px;
+    }
+}
+
+  /*iPhone6*/
+@media screen and (min-width: 361px) and (max-width: 375px) {
+    .jumbotronWOW {
+        width: 105%;
+        height: 500px;
+    }
+    .jumbotronWOW .card1 {
+        margin-top: 8%;
     }
     .jumbotronWOW .card1 p {
         font-size: 20px;
     }
 }
 
-/*<-------------->*/
+ /*iPhone6 Plus*/
+@media screen and (min-width: 376px) and (max-width: 414px) {
+    .jumbotronWOW {
+        width: 105%;
+        height: 550px;
+    }
+    .jumbotronWOW .card1 {
+        margin-top: 20%;
+    }
+    .jumbotronWOW .card1 p {
+        font-size: 20px;
+    }
+}
+
+ /*iPad*/
+@media screen and (min-width: 415px) and (max-width: 768px) {
+    .jumbotronWOW {
+        width: 105%;
+        height: 600px;
+    }
+    .jumbotronWOW .card1 {
+        margin-top: 18%;
+    }
+    .jumbotronWOW .card1 p {
+        font-size: 25px;
+    }
+}
+
+/*<--------------------------Break----------------------------->*/
 
 .teamCarousel {
     margin-top: -3.2%;
@@ -200,36 +451,159 @@
     max-height: 500px;
 }
 
-  .carousel-inner > .item > img,
-  .carousel-inner > .item > a > img {
-      width: 100%;
-      margin: auto;
-  }
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 100%;
+    margin: auto;
+}
 
-  @media screen and (max-width: 375px) {
+   /*iPhone5*/
+@media screen and (max-width: 320px) {
+    .teamCarousel {
+        width: 105%;
+    }
+    .teamCarousel h1 {
+        font-size: 15px;
+    }
+    .teamCarousel h4 {
+        font-size: 10px;
+    }
+}
+
+ /*Galaxy*/
+@media screen and (min-width: 321px) and (max-width: 360px) {
+    .teamCarousel {
+        width: 105%;
+    }
+    .teamCarousel h1 {
+        font-size: 15px;
+    }
+    .teamCarousel h4 {
+        font-size: 10px;
+    }
+}
+
+    /*iPhone6*/
+@media screen and (min-width: 361px) and (max-width: 375px) {
       .teamCarousel {
-          width: 100%;
+          width: 105%;
       }
       .teamCarousel h1 {
           font-size: 20px;
       }
       .teamCarousel h4 {
-          font-size: 10px;
+          font-size: 15px;
       }
 }
+
+   /*iPhone6 Plus*/
+@media screen and (min-width: 376px) and (max-width: 414px) {
+     .teamCarousel {
+          width: 105%;
+      }
+      .teamCarousel h1 {
+          font-size: 25px;
+      }
+      .teamCarousel h4 {
+          font-size: 15px;
+      }
 }
 
-/*Product Page*/
+ /*iPad*/
+@media screen and (min-width: 415px) and (max-width: 768px) {
+    .teamCarousel {
+        width: 105%;
+    }
+    .teamCarousel h1 {
+        font-size: 35px;
+    }
+    .teamCarousel h4 {
+        font-size: 25px;
+    }
+}
+
+
+/*<------------------------------------------------------------------------New Page------------------------------------------------------------------------------>*/
+
 .jumbotronProduct {
-    min-height: 600px;
+    height: 600px;
     background: url(../Img/green-932350.jpg) no-repeat center center fixed;
     background-size: cover;
     margin: 0;
     z-index: 1;
 }
 
+.vcenterTeam {
+    margin-top: 45%;
+    margin-bottom: 50%;
+    background-color: #DC4929 !important;
+}
+
+
+   /*iPhone5*/
+@media screen and (max-width: 320px) {
+    .jumbotronProduct {
+        height: 300px;
+        width: 105%;
+    }
+    .jumbotronProduct .vcenterTeam {
+        margin-top: 45%;
+        margin-bottom: 0;
+    }
+}
+
+ /*Galaxy*/
+@media screen and (min-width: 321px) and (max-width: 360px) {
+    .jumbotronProduct {
+        height: 300px;
+        width: 105.5%;
+    }
+    .jumbotronProduct .vcenterTeam {
+        margin-top: 40%;
+        margin-bottom: 0;
+    }
+}
+
+    /*iPhone6*/
+@media screen and (min-width: 361px) and (max-width: 375px) {
+    .jumbotronProduct {
+        height: 350px;
+        width: 105%;
+    }
+    .jumbotronProduct .vcenterTeam {
+        margin-top : 45%;
+        margin-bottom: 0;
+    }
+}
+
+   /*iPhone6 Plus*/
+@media screen and (min-width: 376px) and (max-width: 414px) {
+    .jumbotronProduct {
+        height: 400px;
+        width: 105%;
+    }
+    .jumbotronProduct .vcenterTeam {
+        margin-top : 45%;
+        margin-bottom: 0;
+    }
+}
+
+ /*iPad*/
+@media screen and (min-width: 415px) and (max-width: 768px) {
+    .jumbotronProduct {
+        height: 500px;
+        width: 105%;
+    }
+    .vcenterTeam {
+        margin-top: 30%;
+    }
+}
+
+/*<--------------------------Break----------------------------->*/
+
 .randomSectionForThisPage {
     margin-top: -20px;
+    width: 99.9%;
 }
 
 .randomSectionForThisPagePic {
@@ -237,16 +611,119 @@
     height: 100%;
     margin: 0;
     padding: 0;
-    }
+}
 
 .my-div-whatever {
     padding-top: 5%;
     padding-bottom:5%;
 }
 
+   /*iPhone5*/
+@media screen and (max-width: 320px) {
+    .randomSectionForThisPage {
+        margin-top: -20px;
+        width: 105%;
+    }
+    .randomSectionForThisPagePic {
+        width: 0;
+        height: 0;
+        margin: 0;
+        padding: 0;
+    }
+    .randomSectionForThisPage .my-div-whatever h1 {
+        font-size: 30px;
+    }
+    .randomSectionForThisPage .my-div-whatever h3 {
+        font-size: 20px;
+    }
+}
+
+ /*Galaxy*/
+@media screen and (min-width: 321px) and (max-width: 360px) {
+    .randomSectionForThisPage {
+        margin-top: -20px;
+        width: 105%;
+    }
+    .randomSectionForThisPagePic {
+        width: 0;
+        height: 0;
+        margin: 0;
+        padding: 0;
+    }
+    .randomSectionForThisPage .my-div-whatever h1 {
+        font-size: 35px;
+    }
+    .randomSectionForThisPage .my-div-whatever h3 {
+        font-size: 20px;
+    }
+}
+
+    /*iPhone6*/
+@media screen and (min-width: 361px) and (max-width: 375px) {
+    .randomSectionForThisPage {
+        margin-top: -20px;
+        width: 105%;
+    }
+    .randomSectionForThisPagePic {
+        width: 0;
+        height: 0;
+        margin: 0;
+        padding: 0;
+    }
+    .randomSectionForThisPage .my-div-whatever h1 {
+        font-size: 35px;
+    }
+    .randomSectionForThisPage .my-div-whatever h3 {
+        font-size: 23px;
+    }
+}
+
+   /*iPhone6 Plus*/
+@media screen and (min-width: 376px) and (max-width: 414px) {
+    .randomSectionForThisPage {
+        margin-top: -20px;
+        width: 105%;
+    }
+    .randomSectionForThisPagePic {
+        width: 0;
+        height: 0;
+        margin: 0;
+        padding: 0;
+    }
+    .randomSectionForThisPage .my-div-whatever h1 {
+        font-size: 40px;
+    }
+    .randomSectionForThisPage .my-div-whatever h3 {
+        font-size: 25px;
+    }
+}
+
+ /*iPad*/
+@media screen and (min-width: 415px) and (max-width: 768px) {
+    .randomSectionForThisPage {
+        margin-top: -20px;
+        width: 105%;
+        margin-left: -50px;
+    }
+    .randomSectionForThisPagePic {
+        width: 0;
+        height: 0;
+        margin: 0;
+        padding: 0;
+    }
+    .randomSectionForThisPage .my-div-whatever h1 {
+        font-size: 45px;
+    }
+    .randomSectionForThisPage .my-div-whatever h3 {
+        font-size: 35px;
+    }
+}
+
+/*<--------------------------Break----------------------------->*/
+
 .vsBody {
-    height: 400px;
     z-index: -10;
+    width: 101%;
 }
 
 .vsBody1 {
@@ -254,6 +731,7 @@
     margin-top: -20px;
     height: 100%;
 }
+
 .something1 {
     margin-top: 15px;
     background-color: #F59241 !important;
@@ -264,7 +742,7 @@
 }
 
 .vsBodyMid {
-    padding-top: 50px;
+    padding-top: 80px;
     margin-top: -20px;
     height: 100%;
 }
@@ -288,10 +766,298 @@
     list-style: none;
 }
 
+   /*iPhone5*/
+@media screen and (max-width: 320px) {
+    .vsBody {
+        z-index: -10;
+        width: 109.8%;
+    }
+    .vsBody1 {
+        padding-top: 30px;
+        margin-top: -5px;
+        margin-left: 15px;
+        height: 100%;
+    }
+    .something1 {
+        margin-top: 5px;
+    }
+    .something1 h1 {
+        font-size: 20px;
+    }
+    .something1 div ul li {
+        font-size: 15px;
+    }
+
+    .vsBodyMid {
+        padding-top: 0px;
+        padding-left: 15px;
+        padding-right: 0;
+        margin-top: 0px;
+        height: 50%;
+    }
+
+    .somethingMid {
+        margin-top: 4% !important;
+        margin-bottom: -1% !important;
+    }
+
+    .somethingMid h1 {
+        font-size: 20px;
+    }
+
+    .vsBody2 {
+        padding-top: 30px;
+        margin-top: -5px;
+        margin-left: 15px;
+        margin-bottom: 15px;
+        height: 100%;
+    }
+    .something2 {
+        margin-top: 5px;
+    }
+    .something2 h1 {
+        font-size: 20px;
+    }
+    .something2 div ul li {
+        font-size: 15px;
+    }
+}
+
+ /*Galaxy*/
+@media screen and (min-width: 321px) and (max-width: 360px) {
+    .vsBody {
+        z-index: -10;
+        width: 109.8%;
+    }
+    .vsBody1 {
+        padding-top: 30px;
+        margin-top: -5px;
+        margin-left: 15px;
+        height: 100%;
+    }
+    .something1 {
+        margin-top: 5px;
+    }
+    .something1 h1 {
+        font-size: 20px;
+    }
+    .something1 div ul li {
+        font-size: 15px;
+    }
+
+    .vsBodyMid {
+        padding-top: 0px;
+        padding-left: 15px;
+        padding-right: 0;
+        margin-top: 0px;
+        height: 50%;
+    }
+
+    .somethingMid {
+        margin-top: 4% !important;
+        margin-bottom: -1% !important;
+    }
+
+    .somethingMid h1 {
+        font-size: 20px;
+    }
+
+    .vsBody2 {
+        padding-top: 30px;
+        margin-top: -5px;
+        margin-left: 15px;
+        margin-bottom: 15px;
+        height: 100%;
+    }
+    .something2 {
+        margin-top: 5px;
+    }
+    .something2 h1 {
+        font-size: 20px;
+    }
+    .something2 div ul li {
+        font-size: 15px;
+    }
+}
+
+    /*iPhone6*/
+@media screen and (min-width: 361px) and (max-width: 375px) {
+    .vsBody {
+        z-index: -10;
+        width: 109%;
+    }
+    .vsBody1 {
+        padding-top: 30px;
+        margin-top: -5px;
+        margin-left: 15px;
+        height: 100%;
+    }
+    .something1 {
+        margin-top: 5px;
+    }
+    .something1 h1 {
+        font-size: 25px;
+    }
+    .something1 div ul li {
+        font-size: 18px;
+    }
+
+    .vsBodyMid {
+        padding-top: 0px;
+        padding-left: 15px;
+        padding-right: 0;
+        margin-top: 0px;
+        height: 50%;
+    }
+
+    .somethingMid {
+        margin-top: 4% !important;
+        margin-bottom: -1% !important;
+    }
+
+    .somethingMid h1 {
+        font-size: 25px;
+    }
+
+    .vsBody2 {
+        padding-top: 30px;
+        margin-top: -5px;
+        margin-left: 15px;
+        margin-bottom: 15px;
+        height: 100%;
+    }
+    .something2 {
+        margin-top: 5px;
+    }
+    .something2 h1 {
+        font-size: 25px;
+    }
+    .something2 div ul li {
+        font-size: 18px;
+    }
+}
+
+   /*iPhone6 Plus*/
+@media screen and (min-width: 376px) and (max-width: 414px) {
+    .vsBody {
+        z-index: -10;
+        width: 108.7%;
+    }
+    .vsBody1 {
+        padding-top: 30px;
+        margin-top: -5px;
+        margin-left: 15px;
+        height: 100%;
+    }
+    .something1 {
+        margin-top: 5px;
+    }
+    .something1 h1 {
+        font-size: 30px;
+    }
+    .something1 div ul li {
+        font-size: 22px;
+    }
+
+    .vsBodyMid {
+        padding-top: 0px;
+        padding-left: 15px;
+        padding-right: 0;
+        margin-top: 0px;
+        height: 50%;
+    }
+
+    .somethingMid {
+        margin-top: 4% !important;
+        margin-bottom: -1% !important;
+    }
+
+    .somethingMid h1 {
+        font-size: 30px;
+    }
+
+    .vsBody2 {
+        padding-top: 30px;
+        margin-top: -5px;
+        margin-left: 15px;
+        margin-bottom: 15px;
+        height: 100%;
+    }
+    .something2 {
+        margin-top: 5px;
+    }
+    .something2 h1 {
+        font-size: 30px;
+    }
+    .something2 div ul li {
+        font-size: 22px;
+    }
+}
+
+ /*iPad*/
+@media screen and (min-width: 415px) and (max-width: 768px) {
+    .vsBody {
+        z-index: -10;
+        width: 106.9%;
+    }
+    .vsBody1 {
+        padding-top: 30px;
+        margin-top: -5px;
+        margin-left: 15px;
+        height: 100%;
+    }
+    .something1 {
+        margin-top: 5px;
+    }
+    .something1 h1 {
+        font-size: 45px;
+    }
+    .something1 div ul li {
+        font-size: 30px;
+    }
+
+    .vsBodyMid {
+        padding-top: 0px;
+        padding-left: 15px;
+        padding-right: 0;
+        margin-top: 0px;
+        height: 50%;
+    }
+
+    .somethingMid {
+        margin-top: 4% !important;
+        margin-bottom: 2% !important;
+    }
+
+    .somethingMid h1 {
+        font-size: 45px;
+    }
+
+    .vsBody2 {
+        padding-top: 30px;
+        margin-top: -5px;
+        margin-left: 15px;
+        margin-bottom: 15px;
+        height: 100%;
+    }
+    .something2 {
+        margin-top: 5px;
+    }
+    .something2 h1 {
+        font-size: 45px;
+    }
+    .something2 div ul li {
+        font-size: 30px;
+    }
+}
+
+/*<--------------------------Break----------------------------->*/
+
 .popUpMadness {
     margin-top: -20px;
     margin-bottom: 1%;
     z-index: 3;
+    width: 100%;
 }
 
 .marginSides {
@@ -301,17 +1067,82 @@
 }
 
 .headerStoryTeam {
-    margin: 0;
+    margin: 0 !important;
+    padding-right: 0 !important;
 }
 
 .holderStoryTeamHeader {
     margin-top: 5%;
-    margin-bottom: 5%;
+    margin-bottom: 10%;
 }
 
 .headerStoryTeam h1 {
     font-size: 400%;
 }
+
+   /*iPhone5*/
+@media screen and (max-width: 320px) {
+    .popUpMadness {
+        margin-top: -15px;
+        margin-bottom: 1%;
+        z-index: 3;
+        width: 105.5%;
+    }
+    .headerStoryTeam h1 {
+        font-size: 250%;
+    }
+}
+
+ /*Galaxy*/
+@media screen and (min-width: 321px) and (max-width: 360px) {
+    .popUpMadness {
+        margin-top: -15px;
+        margin-bottom: 1%;
+        z-index: 3;
+        width: 106%;
+    }
+    .headerStoryTeam h1 {
+        font-size: 250%;
+    }
+}
+
+    /*iPhone6*/
+@media screen and (min-width: 361px) and (max-width: 375px) {
+    .popUpMadness {
+        margin-top: -15px;
+        margin-bottom: 1%;
+        z-index: 3;
+        width: 105.5%;
+    }
+    .headerStoryTeam h1 {
+        font-size: 280%;
+    }
+}
+
+   /*iPhone6 Plus*/
+@media screen and (min-width: 376px) and (max-width: 414px) {
+    .popUpMadness {
+        margin-top: -15px;
+        margin-bottom: 1%;
+        z-index: 3;
+        width: 105.5%;
+    }
+    .headerStoryTeam h1 {
+        font-size: 280%;
+    }
+}
+
+ /*iPad*/
+@media screen and (min-width: 415px) and (max-width: 768px) {
+    .popUpMadness {
+        margin-top: -15px;
+        margin-bottom: 1%;
+        z-index: 3;
+        width: 105.1%;
+    }
+}
+
+/*<--------------------------Break----------------------------->*/
 
 .randomSectionForThisPagePicOverLay1 {
 	background-size: cover;
@@ -344,6 +1175,99 @@
     background-color: #D7042A;
     color: white;
 }
+
+   /*iPhone5*/
+@media screen and (max-width: 320px) {
+    .randomSectionForThisPagePicOverLay1 {
+        height: 250px;
+    }
+    .overLay1 {
+        height: 250px;
+    }
+    .overLay1:hover {
+        height: 250px;
+    }
+    .crazyButton1 {
+        margin-top: 60%;
+    }
+
+    .crazyButton1 h1 {
+        font-size: 20px;
+    }
+}
+
+ /*Galaxy*/
+@media screen and (min-width: 321px) and (max-width: 360px) {
+    .randomSectionForThisPagePicOverLay1 {
+        height: 250px;
+    }
+    .overLay1 {
+        height: 250px;
+    }
+    .overLay1:hover {
+        height: 250px;
+    }
+    .crazyButton1 {
+        margin-top: 60%;
+    }
+
+    .crazyButton1 h1 {
+        font-size: 20px;
+    }
+}
+
+    /*iPhone6*/
+@media screen and (min-width: 361px) and (max-width: 375px) {
+    .randomSectionForThisPagePicOverLay1 {
+        height: 280px;
+    }
+    .overLay1 {
+        height: 280px;
+    }
+    .overLay1:hover {
+        height: 280px;
+    }
+    .crazyButton1 {
+        margin-top: 60%;
+    }
+
+    .crazyButton1 h1 {
+        font-size: 30px;
+    }
+}
+
+   /*iPhone6 Plus*/
+@media screen and (min-width: 376px) and (max-width: 414px) {
+    .randomSectionForThisPagePicOverLay1 {
+        height: 290px;
+    }
+    .overLay1 {
+        height: 290px;
+    }
+    .overLay1:hover {
+        height: 290px;
+    }
+    .crazyButton1 {
+        margin-top: 60%;
+    }
+
+    .crazyButton1 h1 {
+        font-size: 30px;
+    }
+}
+
+ /*iPad*/
+@media screen and (min-width: 415px) and (max-width: 768px) {
+    .crazyButton1 {
+        margin-top: 40%;
+    }
+
+    .crazyButton1 h1 {
+        font-size: 50px;
+    }
+}
+
+/*<--------------------------Break----------------------------->*/
 
 .randomSectionForThisPagePicOverLay2 {
 
@@ -379,6 +1303,97 @@
     color: white;
 }
 
+   /*iPhone5*/
+@media screen and (max-width: 320px) {
+    .randomSectionForThisPagePicOverLay2 {
+        height: 250px;
+    }
+    .overLay2 {
+        height: 250px;
+    }
+    .overLay2:hover {
+        height: 250px;
+    }
+    .crazyButton2 {
+        margin-top: 60%;
+    }
+    .crazyButton2 h1 {
+        font-size: 20px;
+    }
+}
+
+ /*Galaxy*/
+@media screen and (min-width: 321px) and (max-width: 360px) {
+    .randomSectionForThisPagePicOverLay2 {
+        height: 250px;
+    }
+    .overLay2 {
+        height: 250px;
+    }
+    .overLay2:hover {
+        height: 250px;
+    }
+    .crazyButton2 {
+        margin-top: 60%;
+    }
+    .crazyButton2 h1 {
+        font-size: 20px;
+    }
+}
+
+    /*iPhone6*/
+@media screen and (min-width: 361px) and (max-width: 375px) {
+    .randomSectionForThisPagePicOverLay2 {
+        height: 280px;
+    }
+    .overLay2 {
+        height: 280px;
+    }
+    .overLay2:hover {
+        height: 280px;
+    }
+    .crazyButton2 {
+        margin-top: 60%;
+    }
+
+    .crazyButton2 h1 {
+        font-size: 30px;
+    }
+}
+
+   /*iPhone6 Plus*/
+@media screen and (min-width: 376px) and (max-width: 414px) {
+    .randomSectionForThisPagePicOverLay2 {
+        height: 290px;
+    }
+    .overLay2 {
+        height: 290px;
+    }
+    .overLay2:hover {
+        height: 290px;
+    }
+    .crazyButton2 {
+        margin-top: 60%;
+    }
+
+    .crazyButton2 h1 {
+        font-size: 30px;
+    }
+}
+
+ /*iPad*/
+@media screen and (min-width: 415px) and (max-width: 768px) {
+    .crazyButton2 {
+        margin-top: 40%;
+    }
+
+    .crazyButton2 h1 {
+        font-size: 50px;
+    }
+}
+
+/*<--------------------------Break----------------------------->*/
+
 .randomSectionForThisPagePicOverLay3 {
 
 	background-size: cover;
@@ -411,6 +1426,99 @@
     background-color: #34C7A6;
     color: white;
 }
+
+   /*iPhone5*/
+@media screen and (max-width: 320px) {
+    .randomSectionForThisPagePicOverLay3 {
+        height: 250px;
+    }
+    .overLay3 {
+        height: 250px;
+    }
+    .overLay3:hover {
+        height: 250px;
+    }
+    .crazyButton3 {
+        margin-top: 60%;
+    }
+
+    .crazyButton3 h1 {
+        font-size: 20px;
+    }
+}
+
+ /*Galaxy*/
+@media screen and (min-width: 321px) and (max-width: 360px) {
+    .randomSectionForThisPagePicOverLay3 {
+        height: 250px;
+    }
+    .overLay3 {
+        height: 250px;
+    }
+    .overLay3:hover {
+        height: 250px;
+    }
+    .crazyButton3 {
+        margin-top: 60%;
+    }
+
+    .crazyButton3 h1 {
+        font-size: 20px;
+    }
+}
+
+    /*iPhone6*/
+@media screen and (min-width: 361px) and (max-width: 375px) {
+    .randomSectionForThisPagePicOverLay3 {
+        height: 280px;
+    }
+    .overLay3 {
+        height: 280px;
+    }
+    .overLay3:hover {
+        height: 280px;
+    }
+    .crazyButton3 {
+        margin-top: 60%;
+    }
+
+    .crazyButton3 h1 {
+        font-size: 30px;
+    }
+}
+
+   /*iPhone6 Plus*/
+@media screen and (min-width: 376px) and (max-width: 414px) {
+    .randomSectionForThisPagePicOverLay3 {
+        height: 290px;
+    }
+    .overLay3 {
+        height: 290px;
+    }
+    .overLay3:hover {
+        height: 290px;
+    }
+    .crazyButton3 {
+        margin-top: 60%;
+    }
+
+    .crazyButton3 h1 {
+        font-size: 30px;
+    }
+}
+
+ /*iPad*/
+@media screen and (min-width: 415px) and (max-width: 768px) {
+    .crazyButton3 {
+        margin-top: 40%;
+    }
+
+    .crazyButton3 h1 {
+        font-size: 50px;
+    }
+}
+
+/*<--------------------------Break----------------------------->*/
 
 .randomSectionForThisPagePicOverLay4 {
 
@@ -445,32 +1553,101 @@
     color: white;
 }
 
+   /*iPhone5*/
+@media screen and (max-width: 320px) {
+    .randomSectionForThisPagePicOverLay4 {
+        height: 250px;
+    }
+    .overLay4 {
+        height: 250px;
+    }
+    .overLay4:hover {
+        height: 250px;
+    }
+    .crazyButton4 {
+        margin-top: 60%;
+    }
 
-
-.randomSectionForThisPagePic2 {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    opacity: .75;
+    .crazyButton4 h1 {
+        font-size: 20px;
+    }
 }
 
-.randomSectionForThisPagePic3 {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    opacity: .75;
+ /*Galaxy*/
+@media screen and (min-width: 321px) and (max-width: 360px) {
+    .randomSectionForThisPagePicOverLay4 {
+        height: 250px;
+    }
+    .overLay4 {
+        height: 250px;
+    }
+    .overLay4:hover {
+        height: 250px;
+    }
+    .crazyButton4 {
+        margin-top: 60%;
+    }
+
+    .crazyButton4 h1 {
+        font-size: 20px;
+    }
 }
 
-.randomSectionForThisPagePic4 {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    opacity: .75;
+    /*iPhone6*/
+@media screen and (min-width: 361px) and (max-width: 375px) {
+    .randomSectionForThisPagePicOverLay4 {
+        height: 280px;
+    }
+    .overLay4 {
+        height: 280px;
+    }
+    .overLay4:hover {
+        height: 280px;
+    }
+    .crazyButton4 {
+        margin-top: 60%;
+    }
+
+    .crazyButton4 h1 {
+        font-size: 30px;
+    }
 }
 
+   /*iPhone6 Plus*/
+@media screen and (min-width: 376px) and (max-width: 414px) {
+    .randomSectionForThisPagePicOverLay4 {
+        height: 290px;
+    }
+    .overLay4 {
+        height: 290px;
+    }
+    .overLay4:hover {
+        height: 290px;
+    }
+    .crazyButton4 {
+        margin-top: 60%;
+    }
+
+    .crazyButton4 h1 {
+        font-size: 30px;
+    }
+}
+
+ /*iPad*/
+@media screen and (min-width: 415px) and (max-width: 768px) {
+    .crazyButton4 {
+        margin-top: 40%;
+    }
+
+    .crazyButton4 h1 {
+        font-size: 50px;
+    }
+}
+
+/*<--------------------------Break----------------------------->*/
+
+
+/*<-------------------- Do Not Touch ----------------------------->*/
 .vertical-alignment-helper {
     display:table;
     height: 100%;
@@ -492,13 +1669,109 @@
     pointer-events:all;
 }
 
+   /*iPhone5*/
+@media screen and (max-width: 320px) {
+    .model-title h1 {
+        font-size: 30px;
+    }
+    .model-body h4 {
+        font-size: 25px;
+    }
+}
+
+ /*Galaxy*/
+@media screen and (min-width: 321px) and (max-width: 360px) {
+
+}
+
+    /*iPhone6*/
+@media screen and (min-width: 361px) and (max-width: 375px) {
+
+}
+
+   /*iPhone6 Plus*/
+@media screen and (min-width: 376px) and (max-width: 414px) {
+
+}
+
+ /*iPad*/
+@media screen and (min-width: 415px) and (max-width: 768px) {
+
+}
+/*<-------------------- End Of Do Not Touch ----------------------------->*/
+
 
 /*Contact Page*/
 
 .jumbotronContact {
-    min-height: 600px;
+    height: 600px;
     background: url(../Img/football-888015.jpg) no-repeat center center fixed;
     background-size: cover;
     padding-bottom: 25%
 }
 
+.vcenterContact {
+    margin-top: 45%;
+    margin-bottom: 50%;
+}
+
+   /*iPhone5*/
+@media screen and (max-width: 320px) {
+    .jumbotronContact {
+        height: 300px;
+        width: 105%;
+    }
+    .jumbotronContact .vcenterContact {
+        margin-top: 40%;
+        margin-bottom: 0;
+    }
+}
+
+ /*Galaxy*/
+@media screen and (min-width: 321px) and (max-width: 360px) {
+    .jumbotronContact {
+        height: 300px;
+        width: 105.5%;
+    }
+    .jumbotronContact .vcenterContact {
+        margin-top: 40%;
+        margin-bottom: 0;
+    }
+}
+
+    /*iPhone6*/
+@media screen and (min-width: 361px) and (max-width: 375px) {
+    .jumbotronContact {
+        height: 350px;
+        width: 105%;
+    }
+    .jumbotronContact .vcenterContact {
+        margin-top : 45%;
+        margin-bottom: 0;
+    }
+}
+
+   /*iPhone6 Plus*/
+@media screen and (min-width: 376px) and (max-width: 414px) {
+    .jumbotronContact {
+        height: 400px;
+        width: 105%;
+    }
+    .jumbotronContact .vcenterContact {
+        margin-top : 45%;
+        margin-bottom: 0;
+    }
+}
+
+ /*iPad*/
+@media screen and (min-width: 415px) and (max-width: 768px) {
+    .jumbotronContact {
+        height: 500px;
+        width: 105%;
+    }
+    .vcenterContact {
+        margin-top: 80%;
+    }
+}
+
+/*<--------------------------Break----------------------------->*/
